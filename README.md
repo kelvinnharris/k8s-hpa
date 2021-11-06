@@ -161,7 +161,7 @@ my-nginx     Deployment/my-nginx     0%/50%    1         10        2           3
 Check the initial state of pods:
 
 ```
-$ 
+$ kubectl get pods
 NAME                         READY   STATUS    RESTARTS   AGE
 my-nginx-5cfd745b65-dl5ts    1/1     Running   0           3m
 my-nginx-5cfd745b65-mldw5    1/1     Running   0           3m
